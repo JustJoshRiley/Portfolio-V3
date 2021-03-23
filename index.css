@@ -1,0 +1,283 @@
+/* ---------- Global---------- */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #030203;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    -webkit-touch-callout: inherit
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+nav, #section1, #section2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #030203;
+}
+#section3, #section4{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #030203;
+}
+.buttons .contact {
+    border-style: solid;
+    border-color:  #FF00CC;
+    color: white;
+    font-size: 2.250vh;
+    font-family: 'Patua One', serif;
+    transition: linear 0.4s;
+}
+
+.buttons .contact:hover {
+    border-style: solid;
+    border-color:#00F8FF;
+    color: #00F8FF;
+    font-size: 2.250vh;
+    font-family: 'Patua One', serif;
+}
+.buttons .projects {
+    font-size: 2.250vh;
+    font-family: 'Patua One', serif;
+    color: #794c6a;
+    transition: linear 0.4s;
+}
+.buttons .projects:hover {
+    color: white;
+    border-style: solid;
+    border-color: #FF00CC;
+
+}
+
+/* ---------- Nav ---------- */
+nav {
+    height: fit-content;
+}
+nav a {
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 3em;
+    text-decoration: none;
+    color: #794c6a;
+}
+
+/* ---------- Section1 ---------- */
+#section1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #794c6a;
+}
+#section1 h1 {
+    text-align: left;
+    font-size: 5.5vh;
+    font-family: 'Lato', sans-serif;
+}
+#section1-box h6 {
+    width: 55%;
+    text-align: left;
+    font-size: 4.250vh;
+    font-family: 'Patua One', serif;
+    margin-top: 2.5%;
+}
+
+
+/* ---------- Section2 ---------- */
+#section2{
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    justify-content: left;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/joshua-sortino-71vAb1FXB6g-unsplash.jpg');
+}
+#section2-box1 {
+    width: 44%;
+    text-align: left;
+    font-size: 3.250vh;
+    font-family: 'Patua One', serif;
+    color: #261721;
+}
+/* ---------- Section3 ---------- */
+
+.projectHeader {
+    height: 10vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vh;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10%;
+    margin-bottom: 2.5%;
+}
+.project-header-box {
+    color: #868686;
+}
+
+
+.projectCardContainer img {
+    height: auto;
+    width: 100%;
+}
+.imageRow{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5%;
+    /* transition: 5s; */
+}
+
+.projectCard {
+    max-height: 90vh;
+    padding: 5%;
+    margin: 5%;
+    border-style: solid;
+    border-radius: 25px;
+    border-color:  #ff00cc21;
+    transition: 0.8s;
+
+}
+.projectCard:hover {
+    border-color:  #ff00ccef;
+    border-radius: 0px;
+    transition: 0.8s;
+    -webkit-box-shadow: 3px 3px 5px 6px #ff00cc21;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ff00cc21;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ff00cc21;
+    padding: 1.5%;
+}
+
+.image-card {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.image-card:hover{
+    box-shadow: white;
+}
+.card-body {
+    color:#4b4b4b;
+}
+
+.tech-stack h4 {
+    text-align: center;
+    font-size: 3.5vh;
+    font-family: 'Lato', sans-serif;
+    color: #868686;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+.techList {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+}
+.fab {
+    color: #ff00ccef;
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+
+/* ---------- Section4 ---------- */
+#section4 {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    padding-top: 10%;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+.contactContainer {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-image: url('./images/Frame\ 2.png');
+}
+.contact-header {
+    font-size: 3.250vh;
+    font-family: 'Patua One', serif;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.contactForm {
+    height: 80%;
+    width: 60%;
+    border-color: #ffffff;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 5%;
+    
+}
+.fields {
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 2.5%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    overflow: hidden;
+}
+.fields label {
+    font-size: 2vh;
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    #section1-box h6, #section1 h1 {
+        width: 100%;
+        text-align: left;
+    }
+
+
+    #section2{
+        justify-content: center;
+        width: 100vw;
+        background-attachment: fixed;
+    }
+    #section2-box-1 {
+        height: 50%!important;
+        width: 100%!important;
+        font-size: 1.250vw;
+        text-align: center;
+        background-color: white;
+    }
+
+
+    .imageRow {
+        flex-direction: column;
+    }
+    .projectCard {
+        max-height: 100vh;
+    }
+    .tech-stack h4 {
+        display: flex;
+        justify-content: center;
+    }
+
+}

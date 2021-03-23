@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Joshua Riley">
+        <title>Joshua Riley</title>
+        <meta name="description" content="Hi, I'm Josh! I’m a front-end developer, with a passion for design, product and people.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css" integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Lato&family=Patua+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar fixed-top">
+                <a class="" href="#">JR</a>
+                <div class="buttons">
+                    <a class="btn projects" href="#section3">
+                        Projects
+                    </a>
+                    
+                    <a class="btn contact" href="#section4">
+                        Contact
+                    </a>
+                </div>
+            </nav>
+        </header>
+        
+        <main id="main">
+            <div class="section s1">
+                <div class="container-fluid" id="section1">
+                    <div class="row">
+                        <div class="col-xs-12" id="section1-box">
+                            <h1>Hey, I'm Josh.</h1>
+                            <h6>
+                                I’m a <span style="color: #FF00CC;">front-end developer</span>, with a passion for design, product and people.
+                            </h6>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="section" >
+                <div class="container-fluid" id="section2">
+                    <div class="col-xs-12" id="section2-box1">
+                        <p>
+                            I currently study <span style="color: #FF00CC;">computer science</span> at Make School through Dominican University of California, in <span style="text-decoration: underline; text-decoration-color: #FF00CC;">San Francisco</span>.
+                        </p>
+                        <button class="btn btn-outline-secondary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="section3">
+                <div class="col-12 projectHeader">
+                    <div class="project-header-box">
+                        <h1>Recent Projects</h1>
+                    </div>
+                </div>
+                <div class="row projectCardContainer">
+                    <div class="imageRow">
+                        <div class="projectCard">
+                            <div class="image-card">
+                                <img src="./images/HoyaLanding.jpg" alt="Hoya Landing Page">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Hoya</h3>
+                                <p class="card-text">As the Front-End lead, I worked closely with the design, backend, and git control team to create scalable reusable component flask templates with Python and HTML.</p>
+                                <a href="#" class="btn btn-outline-light">Github</a>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="image-card">
+                                <img src="./images/TeaLanding.jpg" alt="Hoya Landing Page">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Tea</h3>
+                                <p class="card-text">During my semester I struggled to understand NoSql cloud databses. I chose to use Python for logic and routing, flask for templating python routes, and stored user input in a deployed Atlas Cluster.</p>
+                                <a href="#" class="btn btn-outline-light">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <h4>Tech Stack</h4>
+                        <div style="color: #794c6a;"  class="techList">
+                            <i class="fab fa-js-square"></i>
+                            <i class="fab fa-python"></i>
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row contactContainer container-fluid" id="section4">
+                <div class="col-12 contact-header">
+                    <h1>Let's Connect.</h1>
+                    <div class="contactForm col-12">
+                        <div class="fields">
+                            <div class="col-md-6">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputSubject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="inputSubject">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputMessage" class="form-label">Message</label>
+                                <input style="height: 10vh;" type="text" class="form-control" id="inputMessage">
+                            </div>
+                            <div class="col-md-1">
+                                <label for="Submit" class="form-label">Submit</label>
+                                <button type="submit" class="form-control btn btn-outline-secondary" id="Submit">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </main>
+        <script src="https://kit.fontawesome.com/2018f464fc.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+
+</html>
